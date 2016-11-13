@@ -1,7 +1,81 @@
+@import url(//db.onlinewebfonts.com/c/1cab1912fb83db07ac36ec97397173ba?family=ClobberGroteskW00-DemiBold);
+@import url(//db.onlinewebfonts.com/c/5621f8cab110decb922898f594ecd660?family=ClobberGroteskW01-Light);
+@font-face {font-family: "ClobberGroteskW00-DemiBold";
+    src: url("//db.onlinewebfonts.com/t/1cab1912fb83db07ac36ec97397173ba.eot");
+    src: url("//db.onlinewebfonts.com/t/1cab1912fb83db07ac36ec97397173ba.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/1cab1912fb83db07ac36ec97397173ba.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/1cab1912fb83db07ac36ec97397173ba.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/1cab1912fb83db07ac36ec97397173ba.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/1cab1912fb83db07ac36ec97397173ba.svg#ClobberGroteskW00-DemiBold") format("svg");
+}
+
+@font-face {font-family: "ClobberGroteskW01-Light";
+    src: url("//db.onlinewebfonts.com/t/5621f8cab110decb922898f594ecd660.eot");
+    src: url("//db.onlinewebfonts.com/t/5621f8cab110decb922898f594ecd660.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/5621f8cab110decb922898f594ecd660.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/5621f8cab110decb922898f594ecd660.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/5621f8cab110decb922898f594ecd660.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/5621f8cab110decb922898f594ecd660.svg#ClobberGroteskW01-Light") format("svg");
+}
+
 body {
 	background-color: black;
 }
 
 #video {
-	margin: 0 auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
+
+.intro {
+	margin-top: 25px;
+}
+
+p {
+
+	font-family: "ClobberGroteskW00-DemiBold";
+	color: white;
+	text-transform: uppercase;
+	margin: 0 auto;
+	text-align: center;
+	letter-spacing: 7px;
+	font-size: 42px;
+	line-height: 1.0em;
+	margin-bottom: 15px;
+}
+
+p.thin {
+	font-family: "ClobberGroteskW01-Light";
+	font-size: 24px;
+	line-height: 1.0em;
+	margin-bottom: 7px;
+}
+
+span.small {
+	font-size: 16px;
+	font-weight: 200;
+}
+
+.donate {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 25px;
+}
+
+a {
+	font-family: "ClobberGroteskW01-Light";
+	text-transform: uppercase;
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+	margin: 10px;
+	border: 1px solid white;
+	padding: 0px 10px;
+	height: 50px;
+}
+
+a:hover {
+	background-color: white;
+	color: black;
+}
+
